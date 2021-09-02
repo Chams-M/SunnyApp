@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784726965677",
+    "project_id": "diginovt",
+    "storage_bucket": "diginovt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784726965677:android:47b40a89b6c70f7516b524",
+        "android_client_info": {
+          "package_name": "com.example.diginov_tasks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784726965677-c5099fpficlb55crol9kqlr0rlavpq6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANhpndkxrBW1aXr06BTFPEwTNal_achQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784726965677-c5099fpficlb55crol9kqlr0rlavpq6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
