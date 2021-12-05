@@ -1,6 +1,5 @@
-# DigiHora
+# Sunny
 
-HR employee management application
 
 ## Getting Started
 
