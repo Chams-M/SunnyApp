@@ -1,7 +1,9 @@
 
 //*********  All routes will be available here 
 
-import 'package:diginov_tasks/screens/login.dart';
+
+import 'package:Sunny/screens/login.dart';
+import 'package:Sunny/src/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/signup.dart';

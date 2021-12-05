@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:diginov_tasks/classes/fire_auth.dart';
-import 'package:diginov_tasks/classes/validator.dart';
-import 'package:diginov_tasks/screens/home.dart';
+import 'package:Sunny/classes/fire_auth.dart';
+import 'package:Sunny/classes/validator.dart';
+import 'package:Sunny/src/pages/home_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +23,7 @@ class _SignupPageState extends State<SignupPage> {
     if (user != null) {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => ProfilePage(
+          builder: (context) => HomePage(
             user: user,
           ),
         ),
@@ -55,7 +55,7 @@ class _SignupPageState extends State<SignupPage> {
                     ClipPath(
                       clipper: GreenClipper(),
                       child: Container(
-                        color: Colors.green.withOpacity(0.7),
+                        color: Colors.yellow.withOpacity(0.7),
                         height: 150,
                       ),
                     ),
@@ -84,7 +84,7 @@ class _SignupPageState extends State<SignupPage> {
                             style: TextStyle(
                                 fontSize: 80.0,
                                 fontWeight: FontWeight.bold,
-                                color: Colors.blueAccent),
+                                color: Colors.green),
                           ),
                         ),
                       ]),
@@ -176,8 +176,8 @@ class _SignupPageState extends State<SignupPage> {
                                 height: 50.0,
                                 child: Material(
                                   borderRadius: BorderRadius.circular(10.0),
-                                  shadowColor: Colors.greenAccent,
-                                  color: Colors.green.withOpacity(0.7),
+                                  shadowColor: Colors.black,
+                                  color: Colors.black.withOpacity(0.7),
                                   elevation: 7.0,
                                   child: GestureDetector(
                                     onTap: () async {
@@ -199,7 +199,7 @@ class _SignupPageState extends State<SignupPage> {
                                           Navigator.of(context).pushReplacement(
                                             MaterialPageRoute(
                                                 builder: (context) =>
-                                                    ProfilePage(user: user)),
+                                                    HomePage(user: user)),
                                           );
                                         }
                                       }

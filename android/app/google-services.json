@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "784726965677",
-    "project_id": "diginovt",
-    "storage_bucket": "diginovt.appspot.com"
+    "project_number": "807974878456",
+    "firebase_url": "https://devfest-adfda-default-rtdb.firebaseio.com",
+    "project_id": "devfest-adfda",
+    "storage_bucket": "devfest-adfda.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:784726965677:android:47b40a89b6c70f7516b524",
+        "mobilesdk_app_id": "1:807974878456:android:15322a512bf22890098f0d",
         "android_client_info": {
-          "package_name": "com.example.diginov_tasks"
+          "package_name": "com.example.devhack"
         }
       },
       "oauth_client": [
         {
-          "client_id": "784726965677-c5099fpficlb55crol9kqlr0rlavpq6k.apps.googleusercontent.com",
+          "client_id": "807974878456-flin5dr4atfu1m1355n8pkk3qpp1e4lt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyANhpndkxrBW1aXr06BTFPEwTNal_achQo"
+          "current_key": "AIzaSyBEm6JbXAR3DAF_yyQxclQcEuNaMAX7q9A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "784726965677-c5099fpficlb55crol9kqlr0rlavpq6k.apps.googleusercontent.com",
+              "client_id": "807974878456-flin5dr4atfu1m1355n8pkk3qpp1e4lt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

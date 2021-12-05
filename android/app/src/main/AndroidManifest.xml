@@ -2,7 +2,7 @@
     package="com.example.diginov_tasks">
    <application
         android:usesCleartextTraffic="true"
-        android:label="DigiHora"
+        android:label="Sunny"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

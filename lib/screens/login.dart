@@ -1,10 +1,9 @@
-import 'package:diginov_tasks/classes/fire_auth.dart';
-import 'package:diginov_tasks/classes/validator.dart';
-import 'package:diginov_tasks/screens/home.dart';
+import 'package:Sunny/classes/fire_auth.dart';
+import 'package:Sunny/classes/validator.dart';
+import 'package:Sunny/src/pages/home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import '../classes/greenclipper.dart';
 import 'signup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -24,7 +23,7 @@ class _LoginPageState extends State<LoginPage> {
     if (user != null) {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => ProfilePage(
+          builder: (context) => HomePage(
             user: user,
           ),
         ),
@@ -48,19 +47,21 @@ class _LoginPageState extends State<LoginPage> {
               if (snapshot.connectionState == ConnectionState.done) {
                 return SingleChildScrollView(
                   child: Column(
+                    
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       //add wavy
                       ClipPath(
                         clipper: GreenClipper(),
                         child: Container(
-                          color: Colors.green.withOpacity(0.7),
+                          color: Colors.yellow.withOpacity(0.7),
                           height: 150,
                         ),
                       ),
 
                       Stack(children: <Widget>[
                         Container(
+                          
                           padding: EdgeInsets.fromLTRB(15.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'Welcome',
@@ -83,7 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                             style: TextStyle(
                                 fontSize: 80.0,
                                 fontWeight: FontWeight.bold,
-                                color: Colors.blueAccent),
+                                color: Colors.green),
                           ),
                         ),
                       ]),
@@ -103,6 +104,7 @@ class _LoginPageState extends State<LoginPage> {
                                 child: Column(
                                   children: <Widget>[
                                     TextFormField(
+                                      
                                       validator: (value) =>
                                           Validator.validateEmail(
                                               email:
@@ -175,8 +177,8 @@ class _LoginPageState extends State<LoginPage> {
                         height: 50.0,
                         child: Material(
                           borderRadius: BorderRadius.circular(10.0),
-                          shadowColor: Colors.greenAccent,
-                          color: Colors.green.withOpacity(0.7),
+                          shadowColor: Colors.black,
+                          color: Colors.black.withOpacity(0.7),
                           elevation: 7.0,
                           child: GestureDetector(
                             onTap: () async {
@@ -192,7 +194,7 @@ class _LoginPageState extends State<LoginPage> {
                                   Navigator.of(context).pushReplacement(
                                       MaterialPageRoute(
                                           builder: (context) =>
-                                              ProfilePage(user: user)));
+                                              HomePage(user: user)));
                                 }
                               }
                             },
@@ -215,7 +217,7 @@ class _LoginPageState extends State<LoginPage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'New to DigiHora ?',
+                            'New to Sunny ?',
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                             ),

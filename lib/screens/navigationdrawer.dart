@@ -32,24 +32,19 @@ class NavigationDrawerWidget extends StatelessWidget {
                   children: [
                     DrawerHeader(
                         decoration: BoxDecoration(
-                            gradient: LinearGradient(colors: <Color>[
-                          Colors.green,
-                          Colors.blueGrey
-                        ])),
+                          color: Colors.black,
+                         ),
                         child: Container(
                           child: Column(
                             children: [
                               // TODO: add changes
-                              Material(
-                                borderRadius:
-                                    BorderRadius.all(Radius.circular(100)),
-                                child: Image.asset(
-                                  'assets/images/logo.png',
-                                  width: 120,
-                                  height: 120,
-                                ),
+                              Image.asset(
+                                'assets/images/loogo.png',
+                                height: 137,
+                                width:150,
+                                scale: 3,
                               ),
-                              Text('$formattedDate'),
+                              
                             ],
                           ),
                         )

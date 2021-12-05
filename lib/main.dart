@@ -1,7 +1,8 @@
 // ! I recommend you to install these extensions if they aren't already installed 
 // ! Better Comments / Error Lens / Bracket Pair colorizer
 
-import 'package:diginov_tasks/screens/login.dart';
+import 'package:Sunny/screens/login.dart';
+import 'package:Sunny/src/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'routes.dart';
 
