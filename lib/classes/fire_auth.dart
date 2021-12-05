@@ -1,7 +1,7 @@
 //This class is for manipulating Firebase authentication
 // it contains 2 methods for Registration and authentication with Firebase
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; 
 
 class FireAuth {
   static Future<User?> registerUsingEmailPassword({
