@@ -1,5 +1,6 @@
 # Sunny
 
+<img src="assets/images/logo.png" height="400">
 
 ## Getting Started
 
@@ -13,3 +14,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<img src="assets/images/splash.jpg" height="900">
+<img src="assets/images/login.jpg" height="900">
+<img src="assets/images/signup.jpg" height="900">
+<img src="assets/images/home.jpg" height="900">
+<img src="assets/images/sendmoney.jpg" height="900">
+<img src="assets/images/navigationdrawer.jpg" height="900" >
